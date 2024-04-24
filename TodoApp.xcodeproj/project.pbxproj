@@ -11,6 +11,11 @@
 		1B0164B62BD7FFED00D4BE24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164B52BD7FFED00D4BE24 /* ContentView.swift */; };
 		1B0164B82BD7FFF400D4BE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0164B72BD7FFF400D4BE24 /* Assets.xcassets */; };
 		1B0164BB2BD7FFF400D4BE24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0164BA2BD7FFF400D4BE24 /* Preview Assets.xcassets */; };
+		1B0164C22BD8003700D4BE24 /* FocusableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164C12BD8003700D4BE24 /* FocusableField.swift */; };
+		1B0164C42BD800D200D4BE24 /* CategoriesDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164C32BD800D200D4BE24 /* CategoriesDropdown.swift */; };
+		1B0164C62BD82A9D00D4BE24 /* SuggestionsDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164C52BD82A9D00D4BE24 /* SuggestionsDropdown.swift */; };
+		1B0164C92BD9511900D4BE24 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164C82BD9511900D4BE24 /* TodoModel.swift */; };
+		1B0164CD2BD9517600D4BE24 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0164CC2BD9517600D4BE24 /* Color+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		1B0164B52BD7FFED00D4BE24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B0164B72BD7FFF400D4BE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0164BA2BD7FFF400D4BE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B0164C12BD8003700D4BE24 /* FocusableField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableField.swift; sourceTree = "<group>"; };
+		1B0164C32BD800D200D4BE24 /* CategoriesDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDropdown.swift; sourceTree = "<group>"; };
+		1B0164C52BD82A9D00D4BE24 /* SuggestionsDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsDropdown.swift; sourceTree = "<group>"; };
+		1B0164C82BD9511900D4BE24 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		1B0164CC2BD9517600D4BE24 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		1B0164B22BD7FFED00D4BE24 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				1B0164CE2BD951A200D4BE24 /* view */,
+				1B0164CB2BD9515500D4BE24 /* extension */,
+				1B0164C72BD950DB00D4BE24 /* models */,
 				1B0164B32BD7FFED00D4BE24 /* TodoAppApp.swift */,
 				1B0164B52BD7FFED00D4BE24 /* ContentView.swift */,
 				1B0164B72BD7FFF400D4BE24 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				1B0164BA2BD7FFF400D4BE24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B0164C72BD950DB00D4BE24 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1B0164C82BD9511900D4BE24 /* TodoModel.swift */,
+				1B0164C12BD8003700D4BE24 /* FocusableField.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1B0164CB2BD9515500D4BE24 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B0164CC2BD9517600D4BE24 /* Color+extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		1B0164CE2BD951A200D4BE24 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B0164C32BD800D200D4BE24 /* CategoriesDropdown.swift */,
+				1B0164C52BD82A9D00D4BE24 /* SuggestionsDropdown.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B0164B62BD7FFED00D4BE24 /* ContentView.swift in Sources */,
+				1B0164C62BD82A9D00D4BE24 /* SuggestionsDropdown.swift in Sources */,
+				1B0164CD2BD9517600D4BE24 /* Color+extension.swift in Sources */,
+				1B0164C42BD800D200D4BE24 /* CategoriesDropdown.swift in Sources */,
+				1B0164C92BD9511900D4BE24 /* TodoModel.swift in Sources */,
+				1B0164C22BD8003700D4BE24 /* FocusableField.swift in Sources */,
 				1B0164B42BD7FFED00D4BE24 /* TodoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
